@@ -4,6 +4,9 @@ body{
 #bannergym-res{
     display: none;
 }
+#member-banner-res{
+    display: none;
+}
 hr.cool-divider{
     margin: 10px auto;
     margin-top: 10px;

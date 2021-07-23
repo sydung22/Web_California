@@ -31,19 +31,35 @@
     .form-sign{
         margin: 0 10px;
     }
-
-}
-@media (max-width:414px){
+    #member-banner-res{
+        display: block;
+    }
+    #member-banner{
+        display: none;
+    }
     #bannergym{
         display: none;
     }
     #bannergym-res{
         display: block;
+        height: auto;
     }
+
+}
+@media (max-width:414px){
+
     #header-content ul{
         padding-left: 0px;
     }
     #header-content ul li{
         font-size: 18px;
+    }
+}
+@media (max-width:342px){
+    .navbar-dark .navbar-brand{
+        margin-right: 0;
+    }
+    .navbar{
+        padding: 0 5px;
     }
 }
