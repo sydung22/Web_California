@@ -44,6 +44,14 @@
         display: block;
         height: auto;
     }
+    .bt-sign{
+        border:none;
+        width: 200px;
+        text-align: center;
+    }
+    .nav-link{
+        width: 200px;
+    }
 
 }
 @media (max-width:414px){

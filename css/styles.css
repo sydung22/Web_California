@@ -14,7 +14,7 @@ hr.cool-divider{
     opacity: 1;
 }
 hr.short-red-line{
-    width: 100px;
+    width: 200px;
     height: 5px;
     background: #dc282f;
 }
@@ -106,7 +106,7 @@ hr.short-red-line{
 }
 .list-post ul li{
     white-space: nowrap;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     padding-bottom: 10px;
 }
 .list-link ul li::marker, .list-ser ul li::marker{
@@ -152,7 +152,7 @@ hr.short-red-line{
     cursor: pointer;
 }
 .center_item img:hover{
-    opacity: 0.7;
+    opacity: 0.8;
     transition: 1s;
 }
 .center_col{
@@ -173,9 +173,18 @@ hr.short-red-line{
     transition: 0.7s;
     cursor: pointer;
 }
-.nav-item .nav-link:hover{
+.nav-item .nav-link:hover:not(.active){
     border-bottom: 2px solid red; 
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    border-bottom: 2px solid red !important; 
 }
 .nav-item .nav-link{
     border-bottom: 2px solid transparent;
+}
+.bt-sign:hover{
+    background-color: red;
 }
