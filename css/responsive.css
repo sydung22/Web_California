@@ -1,5 +1,49 @@
+@media (max-width:1024px){
+    .trainer-card{
+        display: block !important;
+    }
+    .trainer-card img{
+        width: 100%;
+        height: auto;
+    }
+    .text-title-first{
+        padding: 0 200px;
+    }
+}
 @media (max-width:992px){
     .navbar{
         padding: 0 10px 10px;
+    }
+    .col-foot{
+        padding-left: 0px;
+    }
+    .text-title-first{
+        padding: 0;
+    }
+    .text-title p{
+        padding: 0 5px;
+    }
+}
+@media (max-width:768px){
+    .list-link h2, .list-ser h2, .hot-line{
+        text-align: center;
+    }
+    .form-sign{
+        margin: 0 10px;
+    }
+
+}
+@media (max-width:414px){
+    #bannergym{
+        display: none;
+    }
+    #bannergym-res{
+        display: block;
+    }
+    #header-content ul{
+        padding-left: 0px;
+    }
+    #header-content ul li{
+        font-size: 18px;
     }
 }

@@ -1,6 +1,43 @@
 body{
     box-sizing: border-box;
 }
+#bannergym-res{
+    display: none;
+}
+hr.cool-divider{
+    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+hr.short-red-line{
+    width: 100px;
+    height: 5px;
+    background: #dc282f;
+}
+#header-content ul{
+    padding-left: 30px;
+}
+#header-content ul li{
+    padding-right: 20px;
+    font-size: 16px;
+}
+.gym-posts .cool-divider, .gym-post-title .cool-divider{
+    margin: 1px 25px 20px;
+}
+.gym-header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.gym-slider{
+    padding-top: 68.69px;
+    position: relative;
+    z-index: 0;
+}
+.gym-member{
+    position: relative;
+    z-index: 0;
+}
 .navbar{
     padding: 0 10px 0 0;
 }
@@ -11,13 +48,8 @@ body{
 /* .service_item{
     max-width: 100%;
 } */
-.service_item:hover{
-    opacity: 0.6;
-    transition: 1.2s;
-}
 .service_item img{
-    width: 100%;
-    height: 550px;
+    width:100%;
     object-fit: cover;
 }
 .service_col{
@@ -29,13 +61,14 @@ body{
 .img-logo{
     max-width: 214px;
     max-height: 141px;
+    margin: auto;
 }
 .trainer-card{
     box-shadow: 6px 6px 20px #888888;
 }
 .trainer-card:hover{
     transform: scale(1.01);
-    transition: 0.5s;
+    transition: 0.7s;
     cursor: pointer;
 }
 .trainer-card img{
@@ -61,6 +94,7 @@ body{
 }
 .list-post ul li::marker{
     color: red;
+    font-size: 1.5em;
 }
 .list-post ul {
     overflow: hidden;
@@ -73,6 +107,7 @@ body{
 }
 .list-link ul li::marker, .list-ser ul li::marker{
     color: red;
+    font-size: 1.5em;
 }
 .list-link ul li, .list-ser ul li{
     color: #6c6c6c;
@@ -94,4 +129,38 @@ body{
     border: 1px solid red;
     padding: 20px;
     background-color: #303030;
+}
+.col-foot{
+    padding-left: 100px;
+}
+.img-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    opacity: 0;
+    transition: opacity 0.75s;
+}
+.img-overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.center_item img:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+.center_col{
+    padding: 0;
+}
+.center_item img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.text-title-first{
+    padding: 0 360px;
+}
+.text-title p{
+    padding: 0 200px;
 }
