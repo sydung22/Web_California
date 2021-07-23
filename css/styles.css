@@ -1,0 +1,97 @@
+body{
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 0 10px 0 0;
+}
+.container-fluid{
+    padding: 0;
+    overflow: hidden;
+}
+/* .service_item{
+    max-width: 100%;
+} */
+.service_item:hover{
+    opacity: 0.6;
+    transition: 1.2s;
+}
+.service_item img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.service_col{
+    padding: 0;
+}
+.gym-header{
+    background-color: #000;
+}
+.img-logo{
+    max-width: 214px;
+    max-height: 141px;
+}
+.trainer-card{
+    box-shadow: 6px 6px 20px #888888;
+}
+.trainer-card:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.trainer-card img{
+    width: 275px;
+    height: 335px;
+    object-fit: cover;
+}
+.trainer-des{
+    padding: 30px;
+}
+.trainer-des ul li::marker{
+    color: red;
+}
+.trainer-des blockquote{
+    font-size: 18px;
+}
+.list-post ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list-post ul li a:hover{
+    text-decoration: underline;
+}
+.list-post ul li::marker{
+    color: red;
+}
+.list-post ul {
+    overflow: hidden;
+
+}
+.list-post ul li{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+}
+.list-link ul li::marker, .list-ser ul li::marker{
+    color: red;
+}
+.list-link ul li, .list-ser ul li{
+    color: #6c6c6c;
+}
+.list-link ul li:hover, .list-ser ul li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.hot-line-number > a{
+    text-decoration: none;
+    color: #dc2128;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-top: 2px solid #6c6c6c;
+    border-bottom: 2px solid #6c6c6c;
+}
+.form-sign{
+    border: 1px solid red;
+    padding: 20px;
+    background-color: #303030;
+}
