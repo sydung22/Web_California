@@ -11,6 +11,7 @@ hr.cool-divider{
     margin: 10px auto;
     margin-top: 10px;
     margin-bottom: 20px;
+    opacity: 1;
 }
 hr.short-red-line{
     width: 100px;
@@ -166,4 +167,15 @@ hr.short-red-line{
 }
 .text-title p{
     padding: 0 200px;
+}
+.item-person img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.nav-item .nav-link:hover{
+    border-bottom: 2px solid red; 
+}
+.nav-item .nav-link{
+    border-bottom: 2px solid transparent;
 }
