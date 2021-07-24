@@ -9,6 +9,9 @@
     .text-title-first{
         padding: 0 200px;
     }
+    .text-title-first{
+        padding: 0;
+    }
 }
 @media (max-width:992px){
     .navbar{
@@ -16,9 +19,6 @@
     }
     .col-foot{
         padding-left: 0px;
-    }
-    .text-title-first{
-        padding: 0;
     }
     .text-title p{
         padding: 0 5px;
