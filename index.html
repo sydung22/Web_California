@@ -25,22 +25,33 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Câu lạc bộ</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown-1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Câu lạc bộ
+                  </a>
+                  <ul class="dropdown-menu py-3" id="drop-menu-clb" aria-labelledby="navbarDropdown-1">
+                    <li><a class="dropdown-item py-2" href="#">Thành Phố HCM</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Đà Nẵng</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Hà Nội</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Bình Dương</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Vũng Tàu</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Nha Trang</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Dịch vụ</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Hội viên
                   </a>
-                  <ul class="dropdown-menu" id="drop-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Hội viên gói bạc</a></li>
-                    <li><a class="dropdown-item" href="#">Hội viên gói vàng</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Hội viên hằng tháng</a></li>
-                    <li><a class="dropdown-item" href="#">Hội viên hằng năm</a></li>
+                  <ul class="dropdown-menu py-3" id="drop-menu-member" aria-labelledby="navbarDropdown-2">
+                    <li><a class="dropdown-item py-2" href="#">Hội Viên California Fitness & Yoga</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Hội Viên Centuryon</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Hội Viên Doanh Nghiệp</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Ưu Đãi Hội Viên</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Về chúng tôi</a></li>
+                    <li><a class="dropdown-item py-2" href="#">Câu Chuyện Thành Công</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -134,7 +145,7 @@
       </div>
     </section>
     <section class="gym-service">
-      <div class="container-fluid">
+      <div class="container-fluid" style="overflow: hidden;">
         <div class="row">
           <div class="service_col col-12 col-md-4">
             <div class="service_item position-relative">
@@ -213,7 +224,7 @@
       </div>
     </section>
     <section class="gym-places">
-      <div class="container-fluid">
+      <div class="container-fluid" style="overflow: hidden;">
         <div class="row">
           <div class="center_col col-12 col-lg-6">
             <div class="center_item position-relative">

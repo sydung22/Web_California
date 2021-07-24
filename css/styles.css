@@ -18,10 +18,10 @@ hr.short-red-line{
     height: 5px;
     background: #dc282f;
 }
-#header-content ul{
+#header-content > ul{
     padding-left: 30px;
 }
-#header-content ul li{
+#header-content > ul > li{
     padding-right: 20px;
     font-size: 16px;
 }
@@ -47,7 +47,6 @@ hr.short-red-line{
 }
 .container-fluid{
     padding: 0;
-    overflow: hidden;
 }
 /* .service_item{
     max-width: 100%;
@@ -187,4 +186,14 @@ hr.short-red-line{
 }
 .bt-sign:hover{
     background-color: red;
+}
+.dropdown-item:hover{
+    color: white;
+    background: linear-gradient(45deg, #420009 0, #db2128 100%);
+}
+.dropdown-menu{
+    background-color: black;
+}
+.dropdown-item{
+    color: white;
 }
