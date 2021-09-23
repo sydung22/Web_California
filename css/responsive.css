@@ -39,6 +39,7 @@
     .trainer-card{
         display: block !important;
     }
+
     .trainer-card img{
         width: 100%;
         height: auto;
@@ -75,6 +76,11 @@
     }
 
 
+}
+@media (max-width: 575px){
+    .hot-line{
+        text-align: center;
+    }
 }
 @media (max-width:414px){
 
