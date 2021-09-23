@@ -76,7 +76,7 @@ hr.short-red-line{
 }
 .trainer-card img{
     width: 275px;
-    height: 335px;
+    height: auto;
     object-fit: cover;
 }
 .trainer-des{
